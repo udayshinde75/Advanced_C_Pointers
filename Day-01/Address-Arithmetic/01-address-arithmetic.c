@@ -38,3 +38,28 @@ int main(void)
 
     return 0;
 }
+
+
+/*
+Program output
+
+Printing sizes of different types and results of adding 1 to pointers
+sizeof(char) = 1
+ptr_to_char + 1 = 0x1
+----------------------------------------------
+sizeof(short) = 2
+ptr_to_short + 1 = 0x2
+----------------------------------------------
+sizeof(int) = 4
+ptr_to_int + 1 = 0x4
+----------------------------------------------
+sizeof(long long) = 8
+ptr_to_long_long + 1 = 0x8
+----------------------------------------------
+sizeof(double) = 8
+ptr_to_double + 1 = 0x8
+----------------------------------------------
+sizeof(struct Date) = 12
+ptr_to_date + 1 = 0xc
+----------------------------------------------
+*/
